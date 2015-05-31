@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F256164F1B1AC3860004990C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F256164E1B1AC3860004990C /* main.m */; };
+		F25616521B1AC3860004990C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25616511B1AC3860004990C /* AppDelegate.m */; };
+		F25616581B1AC3860004990C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25616561B1AC3860004990C /* Main.storyboard */; };
+		F256165A1B1AC3860004990C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25616591B1AC3860004990C /* Images.xcassets */; };
+		F256165D1B1AC3860004990C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F256165B1B1AC3860004990C /* LaunchScreen.xib */; };
+		F25616691B1AC3860004990C /* AccodionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F25616681B1AC3860004990C /* AccodionTests.m */; };
+		F25616741B1AC3CD0004990C /* AccodionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25616731B1AC3CD0004990C /* AccodionTableViewController.m */; };
+		F25616771B1AD9070004990C /* SectionTableviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F25616761B1AD9070004990C /* SectionTableviewCell.m */; };
+		F256167A1B1ADAC40004990C /* SectionTableViewCeli1.m in Sources */ = {isa = PBXBuildFile; fileRef = F25616791B1ADAC40004990C /* SectionTableViewCeli1.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25616631B1AC3860004990C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25616411B1AC3860004990C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25616481B1AC3860004990C;
+			remoteInfo = Accodion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F25616491B1AC3860004990C /* Accodion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accodion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F256164D1B1AC3860004990C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F256164E1B1AC3860004990C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25616501B1AC3860004990C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F25616511B1AC3860004990C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F25616571B1AC3860004990C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25616591B1AC3860004990C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F256165C1B1AC3860004990C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F25616621B1AC3860004990C /* AccodionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccodionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25616671B1AC3860004990C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25616681B1AC3860004990C /* AccodionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccodionTests.m; sourceTree = "<group>"; };
+		F25616721B1AC3CD0004990C /* AccodionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccodionTableViewController.h; sourceTree = "<group>"; };
+		F25616731B1AC3CD0004990C /* AccodionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccodionTableViewController.m; sourceTree = "<group>"; };
+		F25616751B1AD9070004990C /* SectionTableviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionTableviewCell.h; sourceTree = "<group>"; };
+		F25616761B1AD9070004990C /* SectionTableviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionTableviewCell.m; sourceTree = "<group>"; };
+		F25616781B1ADAC40004990C /* SectionTableViewCeli1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionTableViewCeli1.h; sourceTree = "<group>"; };
+		F25616791B1ADAC40004990C /* SectionTableViewCeli1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionTableViewCeli1.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25616461B1AC3860004990C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F256165F1B1AC3860004990C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25616401B1AC3860004990C = {
+			isa = PBXGroup;
+			children = (
+				F256164B1B1AC3860004990C /* Accodion */,
+				F25616651B1AC3860004990C /* AccodionTests */,
+				F256164A1B1AC3860004990C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F256164A1B1AC3860004990C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25616491B1AC3860004990C /* Accodion.app */,
+				F25616621B1AC3860004990C /* AccodionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F256164B1B1AC3860004990C /* Accodion */ = {
+			isa = PBXGroup;
+			children = (
+				F25616501B1AC3860004990C /* AppDelegate.h */,
+				F25616511B1AC3860004990C /* AppDelegate.m */,
+				F25616721B1AC3CD0004990C /* AccodionTableViewController.h */,
+				F25616731B1AC3CD0004990C /* AccodionTableViewController.m */,
+				F25616561B1AC3860004990C /* Main.storyboard */,
+				F25616591B1AC3860004990C /* Images.xcassets */,
+				F256165B1B1AC3860004990C /* LaunchScreen.xib */,
+				F256164C1B1AC3860004990C /* Supporting Files */,
+				F25616751B1AD9070004990C /* SectionTableviewCell.h */,
+				F25616761B1AD9070004990C /* SectionTableviewCell.m */,
+				F25616781B1ADAC40004990C /* SectionTableViewCeli1.h */,
+				F25616791B1ADAC40004990C /* SectionTableViewCeli1.m */,
+			);
+			path = Accodion;
+			sourceTree = "<group>";
+		};
+		F256164C1B1AC3860004990C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F256164D1B1AC3860004990C /* Info.plist */,
+				F256164E1B1AC3860004990C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F25616651B1AC3860004990C /* AccodionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F25616681B1AC3860004990C /* AccodionTests.m */,
+				F25616661B1AC3860004990C /* Supporting Files */,
+			);
+			path = AccodionTests;
+			sourceTree = "<group>";
+		};
+		F25616661B1AC3860004990C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25616671B1AC3860004990C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25616481B1AC3860004990C /* Accodion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F256166C1B1AC3860004990C /* Build configuration list for PBXNativeTarget "Accodion" */;
+			buildPhases = (
+				F25616451B1AC3860004990C /* Sources */,
+				F25616461B1AC3860004990C /* Frameworks */,
+				F25616471B1AC3860004990C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accodion;
+			productName = Accodion;
+			productReference = F25616491B1AC3860004990C /* Accodion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25616611B1AC3860004990C /* AccodionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F256166F1B1AC3860004990C /* Build configuration list for PBXNativeTarget "AccodionTests" */;
+			buildPhases = (
+				F256165E1B1AC3860004990C /* Sources */,
+				F256165F1B1AC3860004990C /* Frameworks */,
+				F25616601B1AC3860004990C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25616641B1AC3860004990C /* PBXTargetDependency */,
+			);
+			name = AccodionTests;
+			productName = AccodionTests;
+			productReference = F25616621B1AC3860004990C /* AccodionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25616411B1AC3860004990C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Apress;
+				TargetAttributes = {
+					F25616481B1AC3860004990C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F25616611B1AC3860004990C = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F25616481B1AC3860004990C;
+					};
+				};
+			};
+			buildConfigurationList = F25616441B1AC3860004990C /* Build configuration list for PBXProject "Accodion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25616401B1AC3860004990C;
+			productRefGroup = F256164A1B1AC3860004990C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25616481B1AC3860004990C /* Accodion */,
+				F25616611B1AC3860004990C /* AccodionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25616471B1AC3860004990C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25616581B1AC3860004990C /* Main.storyboard in Resources */,
+				F256165D1B1AC3860004990C /* LaunchScreen.xib in Resources */,
+				F256165A1B1AC3860004990C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25616601B1AC3860004990C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25616451B1AC3860004990C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F256167A1B1ADAC40004990C /* SectionTableViewCeli1.m in Sources */,
+				F25616521B1AC3860004990C /* AppDelegate.m in Sources */,
+				F25616771B1AD9070004990C /* SectionTableviewCell.m in Sources */,
+				F25616741B1AC3CD0004990C /* AccodionTableViewController.m in Sources */,
+				F256164F1B1AC3860004990C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F256165E1B1AC3860004990C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25616691B1AC3860004990C /* AccodionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25616641B1AC3860004990C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25616481B1AC3860004990C /* Accodion */;
+			targetProxy = F25616631B1AC3860004990C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25616561B1AC3860004990C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25616571B1AC3860004990C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F256165B1B1AC3860004990C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F256165C1B1AC3860004990C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F256166A1B1AC3860004990C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F256166B1B1AC3860004990C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F256166D1B1AC3860004990C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Accodion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F256166E1B1AC3860004990C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Accodion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F25616701B1AC3860004990C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AccodionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accodion.app/Accodion";
+			};
+			name = Debug;
+		};
+		F25616711B1AC3860004990C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AccodionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accodion.app/Accodion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25616441B1AC3860004990C /* Build configuration list for PBXProject "Accodion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F256166A1B1AC3860004990C /* Debug */,
+				F256166B1B1AC3860004990C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F256166C1B1AC3860004990C /* Build configuration list for PBXNativeTarget "Accodion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F256166D1B1AC3860004990C /* Debug */,
+				F256166E1B1AC3860004990C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F256166F1B1AC3860004990C /* Build configuration list for PBXNativeTarget "AccodionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25616701B1AC3860004990C /* Debug */,
+				F25616711B1AC3860004990C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25616411B1AC3860004990C /* Project object */;
+}
